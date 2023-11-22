@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  max-width: 43.4rem;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#app {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+  height: 100vh;
+}
+
+.container , section {
+  width: min(112rem, 100%);
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 7.2rem;
+  background-color: #387E96;
+  padding: 1.6rem 2.8rem;
+  height: 7.2rem;
+}
+
+nav {
+  height: 4rem;
+  width: 4rem;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+nav img {
+  width: 2.4rem;
+  height: 2.0rem;
+  margin-top: .9rem;
+  margin-left: .8rem;
+}
+
+header form {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.20);
+  color: #FFF;
+}
+
+.input-wrapper label{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 1.4rem;
+  border-radius: .4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 0;
+  background-color: #ffffff33;
+  color: white;
+}
+
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#gatosentado {
+  width: 434px;
+  height: 219px;
+  margin-bottom: 3.1rem;
+}
+
+.container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: .8rem;
+  margin-left: 2.2rem;
+}
+
+.nps {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 3.1rem;
+  margin-left: 2.2rem;
+}
+
+.legal, .nlegal {
+  width: 4rem;
+  height: 4rem;
+  background-color: #387E96;
+  border-radius: 50%;
+  padding: 1.2rem;
+}
+
+.legal img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.container p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 2.2rem;
+  margin-bottom: 3.4rem;
+}
+
+section {
+  margin-left: 2.2rem;
+}
+
+section h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+
+section .caixa {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+#incaixa h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: 200px;
+  height: 13px;
+  margin-bottom: 15px;
+}
+
+#incaixa p {
+  font-family: 1.4rem;
+  font-weight: 400;
+  width: 215px;
+  height: 54px;
+}
+
+footer {
+  text-align: center;
+  padding: 1.6rem;
+  background-color: #387E96;
+}
+
+footer p {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+@media (min-width: 1000px)
+{
+  body {
+    max-width: 100%;
+
+  }
+
+  nav {
+    margin-left: 110px;
+  }
+
+  .avatar {
+    margin-right: 110px;
+  }
+
+  .meio {
+    display: flex;
+    margin: 0 auto;
+    margin-right: 11rem;
+  }
+
+  main {
+    width: 80rem;
+    height: 87.1rem;
+    margin: 44px 34px 0px 120px;
+  }
+
+  #gatosentado {
+    width: 803px;
+    height: 405px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+
+  section {
+    width: 38.4rem;
+    height: 5.6rem;
+    margin-bottom: 29.5rem;
+  }
+
+  section h2 {
+    margin-top: 4.4rem;
+  }
+
+}
